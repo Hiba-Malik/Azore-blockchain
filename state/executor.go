@@ -550,7 +550,7 @@ func (t *Transition) getOwnerAddressFromEngine() types.Address {
 	}
 
 	// Fallback to hardcoded address if not found in configuration
-	return types.StringToAddress("0x30cfa2dd6b79Bc800B0b8cbF89534Aa4D02D548A")
+	return types.StringToAddress("0x0D269CA3878fb86d4Fe709f9D6ccB55a12223c2d")
 }
 
 // Enhanced apply method with native token minting
