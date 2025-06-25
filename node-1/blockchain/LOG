@@ -1,0 +1,8 @@
+=============== Jun 25, 2025 (PKT) ===============
+14:15:55.201717 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:15:55.208331 db@open opening
+14:15:55.209723 version@stat F·[] S·0B[] Sc·[]
+14:15:55.216062 db@janitor F·2 G·0
+14:15:55.216090 db@open done T·7.73754ms
+14:16:15.310313 db@close closing
+14:16:15.310413 db@close done T·97.61µs

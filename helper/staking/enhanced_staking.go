@@ -94,6 +94,14 @@ func InitializeGenesisPremineFromConfig(genesisAlloc map[types.Address]*chain.Ge
 	CalculateGenesisPremineFromConfig(genesisAlloc)
 }
 
+// ClearGenesisCache clears the cached genesis premine and alloc cache
+// Call this when you want to force reload of genesis data
+func ClearGenesisCache() {
+	genesisPremine = nil
+	GenesisAllocCache = nil
+	fmt.Println("[GENESIS CACHE] Cleared genesis premine and alloc cache")
+}
+
 // GetGenesisPremineOrDefault returns the cached genesis premine or the sum from GenesisAllocCache
 func GetGenesisPremineOrDefault() *big.Int {
 	if genesisPremine != nil {

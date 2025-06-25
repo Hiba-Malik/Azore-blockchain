@@ -281,6 +281,7 @@ func NewServer(config *Config) (*Server, error) {
 	}
 
 	// After loading config.Chain.Genesis.Alloc and before starting consensus, set the cache:
+	stakingHelper.ClearGenesisCache()
 	stakingHelper.GenesisAllocCache = config.Chain.Genesis.Alloc
 
 	if err := initForkManager(engineName, config.Chain); err != nil {
