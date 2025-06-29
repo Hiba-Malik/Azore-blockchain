@@ -33,11 +33,11 @@ Node ID              = 16Uiu2HAmHCrwWuMJdHFNTGK1oYpHhXyVXxAazmQa57m59iMykEVh
 ------------------------------------------------------------------------
 start nodes:
 
-./polygon-edge server --data-dir ./node-1 --chain genesis.json --grpc-address :5001 --libp2p :30301 --jsonrpc :10001 --seal --price-limit 1000000000
+./polygon-edge server --data-dir ./node-1 --chain genesis.json --grpc-address :5001 --libp2p :30301 --jsonrpc :10001 --seal --price-limit 1000000000 --nat 177.38.215.101
 
-./polygon-edge server --data-dir ./node-2 --chain genesis.json --grpc-address :5002 --libp2p :30302 --jsonrpc :10002 --seal --price-limit 1000000000
+./polygon-edge server --data-dir ./node-2 --chain genesis.json --grpc-address :5002 --libp2p :30302 --jsonrpc :10002 --seal --price-limit 1000000000 --nat 177.38.215.101
 
-./polygon-edge server --data-dir ./node-3 --chain genesis.json --grpc-address :5003 --libp2p :30303 --jsonrpc :10003 --seal --price-limit 1000000000
+./polygon-edge server --data-dir ./node-3 --chain genesis.json --grpc-address :5003 --libp2p :30303 --jsonrpc :10003 --seal --price-limit 1000000000 --nat 177.38.215.101
 
-./polygon-edge server --data-dir ./node-4 --chain genesis.json --grpc-address :5004 --libp2p :30304 --jsonrpc :10004 --seal --price-limit 1000000000
+./polygon-edge server --data-dir ./node-4 --chain genesis.json --grpc-address :5004 --libp2p :30304 --jsonrpc :10004 --seal --price-limit 1000000000 --nat 177.38.215.101
 
